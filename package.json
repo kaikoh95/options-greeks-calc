@@ -1,0 +1,37 @@
+{
+  "name": "options-greeks-calc",
+  "version": "1.0.0",
+  "description": "Black-Scholes options pricing and Greeks calculator with zero dependencies",
+  "main": "index.js",
+  "bin": {
+    "options-calc": "./index.js",
+    "greeks": "./index.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "options",
+    "black-scholes",
+    "greeks",
+    "finance",
+    "derivatives",
+    "trading",
+    "volatility",
+    "delta",
+    "gamma",
+    "theta",
+    "vega",
+    "rho",
+    "implied-volatility"
+  ],
+  "author": "kaikoh95",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaikoh95/options-greeks-calc.git"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
