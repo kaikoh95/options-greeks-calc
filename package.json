@@ -8,7 +8,7 @@
     "greeks": "./index.js"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test/index.test.js"
   },
   "keywords": [
     "options",
